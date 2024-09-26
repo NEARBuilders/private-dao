@@ -5,10 +5,10 @@
 
 <div align="center">
 
-<h1 style="font-size: 2.5rem; font-weight: bold;">Project Title</h1>
+<h1 style="font-size: 2.5rem; font-weight: bold;">Private DAO & Private Payroll</h1>
 
   <p>
-    <strong>This is a basic project template for new Build DAO projects</strong>
+    <strong>Private & secure proposal and payroll management app built on <a target="_blank" href="https://www.calimero.network/">Calimero Network</a></strong>
   </p>
 
 </div>
