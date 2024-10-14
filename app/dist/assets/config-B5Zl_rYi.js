@@ -1,0 +1,1 @@
+const n="build.sputnik-dao.near";async function e(a){try{const t=await a.viewMethod({contractId:n,method:"get_config"}),{metadata:o}=t;return o&&(t.metadata=JSON.parse(atob(o))),t}catch(t){throw console.log(t),t}}export{n as D,e as g};

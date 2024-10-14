@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-background: 255 250 245; /* #FFFAF5 - Very light orange */
+    --color-foreground: 60 30 60; /* #3C1E3C - Dark purple */
+    --color-card: 255 255 255; /* #FFFFFF - White */
+    --color-card-foreground: 60 30 60; /* #3C1E3C - Dark purple */
+    --color-popover: 255 255 255; /* #FFFFFF - White */
+    --color-popover-foreground: 60 30 60; /* #3C1E3C - Dark purple */
+    --color-primary: 255 127 80; /* #FF7F50 - Coral */
+    --color-primary-foreground: 255 255 255; /* #FFFFFF - White */
+    --color-secondary: 147 112 219; /* #9370DB - Medium Purple */
+    --color-secondary-foreground: 255 255 255; /* #FFFFFF - White */
+    --color-muted: 225 214 231; /* #E1D6E7 - Light lavender */
+    --color-muted-foreground: 90 45 90; /* #5A2D5A - Muted purple */
+    --color-accent: 255 165 0; /* #FFA500 - Orange */
+    --color-accent-foreground: 60 30 60; /* #3C1E3C - Dark purple */
+    --color-destructive: 220 38 38; /* #DC2626 - Red */
+    --color-destructive-foreground: 255 255 255; /* #FFFFFF - White */
+    --color-border: 225 214 231; /* #E1D6E7 - Light lavender */
+    --color-input: 225 214 231; /* #E1D6E7 - Light lavender */
+    --color-ring: 255 127 80; /* #FF7F50 - Coral */
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --color-background: 40 20 40; /* #281428 - Very dark purple */
+    --color-foreground: 255 250 245; /* #FFFAF5 - Very light orange */
+    --color-card: 60 30 60; /* #3C1E3C - Dark purple */
+    --color-card-foreground: 255 250 245; /* #FFFAF5 - Very light orange */
+    --color-popover: 60 30 60; /* #3C1E3C - Dark purple */
+    --color-popover-foreground: 255 250 245; /* #FFFAF5 - Very light orange */
+    --color-primary: 255 127 80; /* #FF7F50 - Coral */
+    --color-primary-foreground: 255 255 255; /* #FFFFFF - White */
+    --color-secondary: 147 112 219; /* #9370DB - Medium Purple */
+    --color-secondary-foreground: 255 255 255; /* #FFFFFF - White */
+    --color-muted: 90 45 90; /* #5A2D5A - Muted purple */
+    --color-muted-foreground: 225 214 231; /* #E1D6E7 - Light lavender */
+    --color-accent: 255 165 0; /* #FFA500 - Orange */
+    --color-accent-foreground: 255 255 255; /* #FFFFFF - White */
+    --color-destructive: 220 38 38; /* #DC2626 - Red */
+    --color-destructive-foreground: 255 255 255; /* #FFFFFF - White */
+    --color-border: 90 45 90; /* #5A2D5A - Muted purple */
+    --color-input: 90 45 90; /* #5A2D5A - Muted purple */
+    --color-ring: 255 127 80; /* #FF7F50 - Coral */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer base {
+  html {
+    font-family: 'Poppins', sans-serif;
+  }
+}
